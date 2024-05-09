@@ -1,0 +1,37 @@
+/* styles.css */
+.preview-carousel .carousel .slide {
+    background: transparent;
+  }
+  
+  .preview-carousel .carousel .control-arrow {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .preview-carousel .carousel .control-next.control-arrow:before {
+    border-left: 8px solid #fff;
+  }
+  
+  .preview-carousel .carousel .control-prev.control-arrow:before {
+    border-right: 8px solid #fff;
+  }
+  
+  .preview-carousel .carousel .control-dots {
+    bottom: -30px;
+  }
+  
+  .preview-carousel .carousel .control-dots .dot {
+    background: #fff;
+  }
+  
+  .preview-carousel .carousel .control-dots .dot.selected {
+    background: #333;
+  }
+  
+  .carousel .thumbs {
+    height: 50px; /* adjust this value to change the height of the thumbnail images */
+  }
+  
+  .carousel .thumbs img {
+    max-height: 100%;
+  }
